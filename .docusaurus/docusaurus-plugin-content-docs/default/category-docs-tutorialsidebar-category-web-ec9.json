@@ -1,0 +1,11 @@
+{
+  "title": "Web",
+  "slug": "/category/web",
+  "permalink": "/docs/category/web",
+  "navigation": {
+    "next": {
+      "title": "Manage Docs Versions",
+      "permalink": "/docs/Web/manage-docs-versions"
+    }
+  }
+}

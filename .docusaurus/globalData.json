@@ -1,0 +1,58 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "Web/manage-docs-versions",
+          "docs": [
+            {
+              "id": "TIL/TIL",
+              "path": "/docs/TIL/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Web/manage-docs-versions",
+              "path": "/docs/Web/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Web/translate-your-site",
+              "path": "/docs/Web/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Wiki/aa",
+              "path": "/docs/Wiki/aa",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Wiki/wiki",
+              "path": "/docs/Wiki/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/web",
+              "path": "/docs/category/web",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/category/web",
+                "label": "Web"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Wiki/wiki",
+  "id": "Wiki/wiki",
+  "title": "✏️SweetDev's Wiki",
+  "description": "This is where I jote down all my small knowledges.",
+  "source": "@site/docs/Wiki/wiki.md",
+  "sourceDirName": "Wiki",
+  "slug": "/Wiki/",
+  "permalink": "/docs/Wiki/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Wiki/wiki.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🌇 Today I Learned",
+    "permalink": "/docs/TIL/"
+  },
+  "next": {
+    "title": "aa",
+    "permalink": "/docs/Wiki/aa"
+  }
+}
