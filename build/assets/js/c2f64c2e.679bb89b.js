@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[706],{1151:e=>{e.exports=JSON.parse('{"title":"Web","slug":"/category/web","permalink":"/docs/category/web","navigation":{"next":{"title":"Manage Docs Versions","permalink":"/docs/Web/manage-docs-versions"}}}')}}]);
