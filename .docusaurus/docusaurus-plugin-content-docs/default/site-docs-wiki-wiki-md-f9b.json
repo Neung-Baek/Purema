@@ -1,7 +1,7 @@
 {
   "unversionedId": "Wiki/wiki",
   "id": "Wiki/wiki",
-  "title": "✏️SweetDev's Wiki",
+  "title": "✏️[머신러닝을 위한 수학] 기초 선형대수 1",
   "description": "This is where I jote down all my small knowledges.",
   "source": "@site/docs/Wiki/wiki.md",
   "sourceDirName": "Wiki",

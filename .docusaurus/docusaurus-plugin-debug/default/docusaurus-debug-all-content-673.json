@@ -15,10 +15,34 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/yejin/SWeetDev/sidebars.js",
-          "contentPath": "/Users/yejin/SWeetDev/docs",
-          "contentPathLocalized": "/Users/yejin/SWeetDev/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "C:\\Users\\choij\\Purema\\sidebars.js",
+          "contentPath": "C:\\Users\\choij\\Purema\\docs",
+          "contentPathLocalized": "C:\\Users\\choij\\Purema\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
+            {
+              "unversionedId": "Math/Intro",
+              "id": "Math/Intro",
+              "title": "코스 소개",
+              "description": "* 머신러닝을 위한 수학",
+              "source": "@site/docs/Math/Intro.md",
+              "sourceDirName": "Math",
+              "slug": "/Math/Intro",
+              "permalink": "/docs/Math/Intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Math/Intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Translate your site",
+                "permalink": "/docs/Web/translate-your-site"
+              },
+              "next": {
+                "title": "🌇 Today I Learned",
+                "permalink": "/docs/TIL/"
+              }
+            },
             {
               "unversionedId": "TIL/TIL",
               "id": "TIL/TIL",
@@ -35,12 +59,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Translate your site",
-                "permalink": "/docs/Web/translate-your-site"
-              },
-              "next": {
-                "title": "✏️SweetDev's Wiki",
-                "permalink": "/docs/Wiki/"
+                "title": "코스 소개",
+                "permalink": "/docs/Math/Intro"
               }
             },
             {
@@ -93,52 +113,8 @@
                 "permalink": "/docs/Web/manage-docs-versions"
               },
               "next": {
-                "title": "🌇 Today I Learned",
-                "permalink": "/docs/TIL/"
-              }
-            },
-            {
-              "unversionedId": "Wiki/aa",
-              "id": "Wiki/aa",
-              "title": "aa",
-              "description": "adsf",
-              "source": "@site/docs/Wiki/aa.md",
-              "sourceDirName": "Wiki",
-              "slug": "/Wiki/aa",
-              "permalink": "/docs/Wiki/aa",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Wiki/aa.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "✏️SweetDev's Wiki",
-                "permalink": "/docs/Wiki/"
-              }
-            },
-            {
-              "unversionedId": "Wiki/wiki",
-              "id": "Wiki/wiki",
-              "title": "✏️SweetDev's Wiki",
-              "description": "This is where I jote down all my small knowledges.",
-              "source": "@site/docs/Wiki/wiki.md",
-              "sourceDirName": "Wiki",
-              "slug": "/Wiki/",
-              "permalink": "/docs/Wiki/",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Wiki/wiki.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "🌇 Today I Learned",
-                "permalink": "/docs/TIL/"
-              },
-              "next": {
-                "title": "aa",
-                "permalink": "/docs/Wiki/aa"
+                "title": "코스 소개",
+                "permalink": "/docs/Math/Intro"
               }
             }
           ],
@@ -167,25 +143,21 @@
                 }
               },
               {
-                "type": "doc",
-                "label": "🌇 Today I Learned",
-                "id": "TIL/TIL"
-              },
-              {
                 "type": "category",
-                "label": "✏️SweetDev's Wiki",
+                "label": "Math",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Wiki/aa"
+                    "id": "Math/Intro"
                   }
-                ],
-                "link": {
-                  "type": "doc",
-                  "id": "Wiki/wiki"
-                }
+                ]
+              },
+              {
+                "type": "doc",
+                "label": "🌇 Today I Learned",
+                "id": "TIL/TIL"
               }
             ]
           }
@@ -197,6 +169,81 @@
     "default": {
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
+        {
+          "id": "first-blog-post",
+          "metadata": {
+            "permalink": "/blog/first-blog-post",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-01-28-first-blog-post.md",
+            "source": "@site/blog/2023-01-28-first-blog-post.md",
+            "title": "기초 선형대수 1()",
+            "description": "",
+            "date": "2023-01-28T00:00:00.000Z",
+            "formattedDate": "January 28, 2023",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Purema",
+                "title": "Purema",
+                "url": "https://github.com/Neung-Baek",
+                "imageURL": "https://github.com/Neung-Baek.png",
+                "key": "Purema"
+              }
+            ],
+            "frontMatter": {
+              "slug": "first-blog-post",
+              "title": "기초 선형대수 1()",
+              "authors": [
+                "Purema"
+              ],
+              "tags": [
+                "hola",
+                "docusaurus"
+              ]
+            },
+            "nextItem": {
+              "title": "Intro/Intro",
+              "permalink": "/blog/2023/01/28/Intro/Intro"
+            }
+          },
+          "content": ""
+        },
+        {
+          "id": "/2023/01/28/Intro/Intro",
+          "metadata": {
+            "permalink": "/blog/2023/01/28/Intro/Intro",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-01-28-Intro/Intro.md",
+            "source": "@site/blog/2023-01-28-Intro/Intro.md",
+            "title": "Intro/Intro",
+            "description": "안녕하세요 Purema 입니다.",
+            "date": "2023-01-28T00:00:00.000Z",
+            "formattedDate": "January 28, 2023",
+            "tags": [],
+            "readingTime": 0.045,
+            "hasTruncateMarker": false,
+            "authors": [],
+            "frontMatter": {},
+            "prevItem": {
+              "title": "기초 선형대수 1()",
+              "permalink": "/blog/first-blog-post"
+            },
+            "nextItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            }
+          },
+          "content": "안녕하세요 Purema 입니다."
+        },
         {
           "id": "welcome",
           "metadata": {
@@ -252,12 +299,16 @@
                 "docusaurus"
               ]
             },
+            "prevItem": {
+              "title": "Intro/Intro",
+              "permalink": "/blog/2023/01/28/Intro/Intro"
+            },
             "nextItem": {
               "title": "MDX Blog Post",
               "permalink": "/blog/mdx-blog-post"
             }
           },
-          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\r\n\r\nSimply add Markdown files (or folders) to the `blog` directory.\r\n\r\nRegular blog authors can be added to `authors.yml`.\r\n\r\nThe blog post date can be extracted from filenames, such as:\r\n\r\n- `2019-05-30-welcome.md`\r\n- `2019-05-30-welcome/index.md`\r\n\r\nA blog post folder can be convenient to co-locate blog post images:\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\nThe blog supports tags as well!\r\n\r\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
         },
         {
           "id": "mdx-blog-post",
@@ -305,7 +356,7 @@
               "permalink": "/blog/long-blog-post"
             }
           },
-          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\r\n\r\n:::tip\r\n\r\nUse the power of React to create interactive blog posts.\r\n\r\n```js\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n```\r\n\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n\r\n:::"
         },
         {
           "id": "long-blog-post",
@@ -350,88 +401,84 @@
             "prevItem": {
               "title": "MDX Blog Post",
               "permalink": "/blog/mdx-blog-post"
-            },
-            "nextItem": {
-              "title": "First Blog Post",
-              "permalink": "/blog/first-blog-post"
             }
           },
-          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-        },
-        {
-          "id": "first-blog-post",
-          "metadata": {
-            "permalink": "/blog/first-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
-            "source": "@site/blog/2019-05-28-first-blog-post.md",
-            "title": "First Blog Post",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-            "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "May 28, 2019",
-            "tags": [
-              {
-                "label": "hola",
-                "permalink": "/blog/tags/hola"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.12,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              }
-            ],
-            "frontMatter": {
-              "slug": "first-blog-post",
-              "title": "First Blog Post",
-              "authors": {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              },
-              "tags": [
-                "hola",
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
-            }
-          },
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+          "content": "This is the summary of a very long blog post,\r\n\r\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\r\n\r\n<!--truncate-->\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
         }
       ],
       "blogListPaginated": [
         {
           "items": [
+            "first-blog-post",
+            "/2023/01/28/Intro/Intro",
             "welcome",
             "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
+            "long-blog-post"
           ],
           "metadata": {
             "permalink": "/blog",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 4,
+            "totalCount": 5,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
         }
       ],
       "blogTags": {
+        "/blog/tags/hola": {
+          "label": "hola",
+          "items": [
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/hola",
+          "pages": [
+            {
+              "items": [
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hola",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/docusaurus": {
+          "label": "docusaurus",
+          "items": [
+            "first-blog-post",
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post"
+          ],
+          "permalink": "/blog/tags/docusaurus",
+          "pages": [
+            {
+              "items": [
+                "first-blog-post",
+                "welcome",
+                "mdx-blog-post",
+                "long-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/docusaurus",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 4,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
         "/blog/tags/facebook": {
           "label": "facebook",
           "items": [
@@ -474,58 +521,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/docusaurus": {
-          "label": "docusaurus",
-          "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
-          ],
-          "permalink": "/blog/tags/docusaurus",
-          "pages": [
-            {
-              "items": [
-                "welcome",
-                "mdx-blog-post",
-                "long-blog-post",
-                "first-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/docusaurus",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 4,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/hola": {
-          "label": "hola",
-          "items": [
-            "first-blog-post"
-          ],
-          "permalink": "/blog/tags/hola",
-          "pages": [
-            {
-              "items": [
-                "first-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/hola",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }

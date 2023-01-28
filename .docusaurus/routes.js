@@ -3,67 +3,113 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', 'dc1'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '9df'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', '3c1'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', '0d9'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '7d1'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', 'f6c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', 'ab7'),
+    exact: true
+  },
+  {
     path: '/blog',
-    component: ComponentCreator('/blog', '532'),
+    component: ComponentCreator('/blog', '298'),
+    exact: true
+  },
+  {
+    path: '/blog/2023/01/28/Intro/Intro',
+    component: ComponentCreator('/blog/2023/01/28/Intro/Intro', 'a04'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '1bd'),
+    component: ComponentCreator('/blog/archive', 'dd6'),
     exact: true
   },
   {
     path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '472'),
+    component: ComponentCreator('/blog/first-blog-post', '186'),
     exact: true
   },
   {
     path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', 'dd7'),
+    component: ComponentCreator('/blog/long-blog-post', '484'),
     exact: true
   },
   {
     path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', '3b6'),
+    component: ComponentCreator('/blog/mdx-blog-post', 'c64'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '747'),
+    component: ComponentCreator('/blog/tags', '716'),
     exact: true
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '501'),
+    component: ComponentCreator('/blog/tags/docusaurus', '886'),
     exact: true
   },
   {
     path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '4a7'),
+    component: ComponentCreator('/blog/tags/facebook', '280'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '4c3'),
+    component: ComponentCreator('/blog/tags/hello', '64e'),
     exact: true
   },
   {
     path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '76a'),
+    component: ComponentCreator('/blog/tags/hola', '763'),
     exact: true
   },
   {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', '584'),
+    component: ComponentCreator('/blog/welcome', '48d'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '244'),
+    component: ComponentCreator('/docs', '9d7'),
     routes: [
       {
         path: '/docs/category/web',
         component: ComponentCreator('/docs/category/web', 'ddd'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Math/Intro',
+        component: ComponentCreator('/docs/Math/Intro', '368'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -84,24 +130,12 @@ export default [
         component: ComponentCreator('/docs/Web/translate-your-site', 'fdf'),
         exact: true,
         sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Wiki/',
-        component: ComponentCreator('/docs/Wiki/', '0de'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Wiki/aa',
-        component: ComponentCreator('/docs/Wiki/aa', 'be3'),
-        exact: true,
-        sidebar: "tutorialSidebar"
       }
     ]
   },
   {
     path: '/',
-    component: ComponentCreator('/', '7a2'),
+    component: ComponentCreator('/', 'a73'),
     exact: true
   },
   {

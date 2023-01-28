@@ -1,0 +1,20 @@
+{
+  "unversionedId": "intro/Intro",
+  "id": "intro/Intro",
+  "title": "Intro",
+  "description": "안녕하세요 Purema 입니다.",
+  "source": "@site/docs/intro/Intro.md",
+  "sourceDirName": "intro",
+  "slug": "/intro/",
+  "permalink": "/docs/intro/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro/Intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "aa",
+    "permalink": "/docs/Wiki/aa"
+  }
+}

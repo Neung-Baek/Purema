@@ -1,0 +1,22 @@
+{
+  "permalink": "/blog/2023/01/28/Intro/Intro",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-01-28-Intro/Intro.md",
+  "source": "@site/blog/2023-01-28-Intro/Intro.md",
+  "title": "Intro/Intro",
+  "description": "안녕하세요 Purema 입니다.",
+  "date": "2023-01-28T00:00:00.000Z",
+  "formattedDate": "January 28, 2023",
+  "tags": [],
+  "readingTime": 0.045,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {},
+  "prevItem": {
+    "title": "기초 선형대수 1()",
+    "permalink": "/blog/first-blog-post"
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}

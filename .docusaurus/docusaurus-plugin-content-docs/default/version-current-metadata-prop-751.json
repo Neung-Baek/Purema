@@ -31,29 +31,34 @@
         "href": "/docs/category/web"
       },
       {
-        "type": "link",
-        "label": "🌇 Today I Learned",
-        "href": "/docs/TIL/",
-        "docId": "TIL/TIL"
-      },
-      {
         "type": "category",
-        "label": "✏️SweetDev's Wiki",
+        "label": "Math",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "aa",
-            "href": "/docs/Wiki/aa",
-            "docId": "Wiki/aa"
+            "label": "코스 소개",
+            "href": "/docs/Math/Intro",
+            "docId": "Math/Intro"
           }
-        ],
-        "href": "/docs/Wiki/"
+        ]
+      },
+      {
+        "type": "link",
+        "label": "🌇 Today I Learned",
+        "href": "/docs/TIL/",
+        "docId": "TIL/TIL"
       }
     ]
   },
   "docs": {
+    "Math/Intro": {
+      "id": "Math/Intro",
+      "title": "코스 소개",
+      "description": "* 머신러닝을 위한 수학",
+      "sidebar": "tutorialSidebar"
+    },
     "TIL/TIL": {
       "id": "TIL/TIL",
       "title": "🌇 Today I Learned",
@@ -70,18 +75,6 @@
       "id": "Web/translate-your-site",
       "title": "Translate your site",
       "description": "Let's translate docs/intro.md to French.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Wiki/aa": {
-      "id": "Wiki/aa",
-      "title": "aa",
-      "description": "adsf",
-      "sidebar": "tutorialSidebar"
-    },
-    "Wiki/wiki": {
-      "id": "Wiki/wiki",
-      "title": "✏️SweetDev's Wiki",
-      "description": "This is where I jote down all my small knowledges.",
       "sidebar": "tutorialSidebar"
     }
   }

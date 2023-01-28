@@ -11,6 +11,11 @@
           "mainDocId": "Web/manage-docs-versions",
           "docs": [
             {
+              "id": "Math/Intro",
+              "path": "/docs/Math/Intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "TIL/TIL",
               "path": "/docs/TIL/",
               "sidebar": "tutorialSidebar"
@@ -23,16 +28,6 @@
             {
               "id": "Web/translate-your-site",
               "path": "/docs/Web/translate-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Wiki/aa",
-              "path": "/docs/Wiki/aa",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Wiki/wiki",
-              "path": "/docs/Wiki/",
               "sidebar": "tutorialSidebar"
             },
             {

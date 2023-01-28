@@ -4,15 +4,15 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "SweetDev",
+  "title": "Purema",
   "tagline": "",
-  "url": "https://your-docusaurus-test-site.com",
+  "url": "https://purema.netlify.app",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
   "organizationName": "facebook",
-  "projectName": "SWeetDev",
+  "projectName": "Purema",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/yejin/SWeetDev/sidebars.js",
+          "sidebarPath": "C:\\Users\\choij\\Purema\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,14 +34,14 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/Users/yejin/SWeetDev/src/css/custom.css"
+          "customCss": "C:\\Users\\choij\\Purema\\src\\css\\custom.css"
         }
       }
     ]
   ],
   "themeConfig": {
     "navbar": {
-      "title": "⚡️ SweetDev",
+      "title": "⚡️ Purema",
       "items": [
         {
           "to": "blog",
@@ -50,10 +50,10 @@ export default {
         },
         {
           "type": "doc",
-          "to": "docs/Wiki",
-          "docId": "Wiki/wiki",
+          "to": "docs/Math",
+          "docId": "Math/Intro",
           "position": "left",
-          "label": "Wiki"
+          "label": "Math"
         },
         {
           "type": "doc",
@@ -68,11 +68,11 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Community",
+          "title": "Reference",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "label": "SWeetDev",
+              "href": "https://sweetdev.netlify.app/"
             },
             {
               "label": "Discord",

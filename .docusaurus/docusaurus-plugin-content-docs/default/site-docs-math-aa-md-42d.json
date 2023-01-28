@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Math/aa",
+  "id": "Math/aa",
+  "title": "aa",
+  "description": "adsf",
+  "source": "@site/docs/Math/aa.md",
+  "sourceDirName": "Math",
+  "slug": "/Math/aa",
+  "permalink": "/docs/Math/aa",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Math/aa.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "코스 소개",
+    "permalink": "/docs/Math/Intro"
+  },
+  "next": {
+    "title": "✏️[머신러닝을 위한 수학] 기초 선형대수 1",
+    "permalink": "/docs/Math/wiki"
+  }
+}

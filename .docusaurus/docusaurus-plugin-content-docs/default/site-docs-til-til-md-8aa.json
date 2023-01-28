@@ -14,11 +14,7 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Translate your site",
-    "permalink": "/docs/Web/translate-your-site"
-  },
-  "next": {
-    "title": "✏️SweetDev's Wiki",
-    "permalink": "/docs/Wiki/"
+    "title": "코스 소개",
+    "permalink": "/docs/Math/Intro"
   }
 }

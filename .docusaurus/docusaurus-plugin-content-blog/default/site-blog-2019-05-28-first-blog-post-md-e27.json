@@ -3,7 +3,7 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
   "source": "@site/blog/2019-05-28-first-blog-post.md",
   "title": "First Blog Post",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+  "description": "안녕하세요",
   "date": "2019-05-28T00:00:00.000Z",
   "formattedDate": "May 28, 2019",
   "tags": [
@@ -16,7 +16,7 @@
       "permalink": "/blog/tags/docusaurus"
     }
   ],
-  "readingTime": 0.12,
+  "readingTime": 0.135,
   "hasTruncateMarker": false,
   "authors": [
     {

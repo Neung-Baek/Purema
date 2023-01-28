@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'SweetDev',
+  title: 'Purema',
   tagline: '',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://purema.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'SWeetDev', // Usually your repo name.
+  projectName: 'Purema', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '⚡️ SweetDev',
+        title: '⚡️ Purema',
         // logo: {
         //   alt: 'My Site Logo',
         //   src: 'img/C428x428.jpeg',
@@ -68,10 +68,10 @@ const config = {
           // 가벼운 wiki
           {
             type: 'doc',
-            to: 'docs/Wiki',
-            docId: 'Wiki/wiki',
+            to: 'docs/Math',
+            docId: 'Math/Intro',
             position: 'left',
-            label: 'Wiki',
+            label: 'Math',
           },
           // Today I Learned
           {
@@ -86,11 +86,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Community',
+            title: 'Reference',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'SWeetDev',
+                href: 'https://sweetdev.netlify.app/',
               },
               {
                 label: 'Discord',
